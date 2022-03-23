@@ -2,6 +2,7 @@ import * as React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import ErrorProps from "../data/Texterror";
+import emailjs, { send } from "emailjs-com";
 import {
   Grid,
   Button,
@@ -21,6 +22,19 @@ const initialValues = {
 };
 
 const onSubmit = (data, { setSubmitting, resetForm }) => {
+  emailjs
+  .sendForm(
+    "service_wvqydz2",
+    "template_zu7c0q8",
+    "form",
+    "7yJ2D_8opEfPJ2zIk"
+  )
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
   setSubmitting(true);
   console.log("submit:", data);
   setSubmitting(false);
