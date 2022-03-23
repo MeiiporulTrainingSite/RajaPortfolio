@@ -28,7 +28,7 @@ export default function MediaCard3() {
   };
 
   return (
-   <Card sx={{ maxWidth: 220, height: { lg: "53vh" },borderRadius:"15px" }}>
+   <Card sx={{ maxWidth: 150, height: { lg: "57vh" },borderRadius:"15px" }}>
       <span>
         <CardMedia
           component="img"
