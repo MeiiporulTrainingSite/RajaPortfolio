@@ -16,11 +16,13 @@ export default function Test(props) {
           lg: "530px",
           xl: "680px"
        },
-        margin: { xs: "0 0 0 20px" },borderRadius:"15px"
+        margin: { xs: "0 0 0 20px" },
+        borderRadius:"15px",
+        padding:{xs:'5px'}
       }}
     >
       <CardContent>
-        <Typography variant="subtitle1" color="text.primary" align="justify" sx={{textIndent:"40px",wordSpacing:{xs:"-1px",lg:'-4px'},fontSize:{xs:'10px',sm:'14px',lg:'18px'}}}>
+        <Typography variant="subtitle1" color="text.primary" align="justify" sx={{textIndent:"40px",wordSpacing:{xs:"-1px",lg:'-4px'},fontSize:{xs:'12px',sm:'15.5px',lg:'18px'}}}>
           {props.description}
         </Typography>
       </CardContent>
@@ -34,11 +36,11 @@ export default function Test(props) {
             margin: "0 20px 10px"
           }}
         />
-        <Typography variant="h6" component="h6">
+        <Typography variant={{md:"h6"}} component="h6" sx={{fontSize:{xs:'14px',md:'18px'},padding:{xs:'0 0 5px 0'}}}>
           {props.name}
           <Typography
             variant="body2"
-            sx={{ textAlign: { xs: "left", md: "center" } }}
+            sx={{ textAlign: { xs: "left", md: "center" }, fontSize:{xs:'12px',md:'14px'}}}
           >
             {props.title}
           </Typography>
