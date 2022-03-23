@@ -225,14 +225,15 @@ export default function About() {
                   alt="Raja"
                 />
               </Grid>
-              <Grid item>
+              <Grid item >
                 <MenuList
                   sx={{
                     height: { xs: "none", md: "400px" },
-                    width: { xs: "82vw", md: "250px" },
+                    width: { xs: "75vw",sm:"350px",md:"250px" },
                     position: { xs: "none", lg: "relative" },
                     top: { xs: "none", md: "50px" },
                     left: { xs: "none", md: "130px" },
+                    marginLeft:{sm:"175px",md:"0"}
                   }}
                 >
                   <Paper
