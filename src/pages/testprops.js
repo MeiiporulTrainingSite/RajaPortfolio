@@ -20,7 +20,7 @@ export default function Test(props) {
       }}
     >
       <CardContent>
-        <Typography variant="subtitle1" color="text.primary" align="justify" sx={{textIndent:"40px",wordSpacing:{xs:"-4px",lg:'0'},fontSize:{xs:'10px',lg:'18px'}}}>
+        <Typography variant="subtitle1" color="text.primary" align="justify" sx={{textIndent:"40px",wordSpacing:{xs:"-1px",lg:'-4px'},fontSize:{xs:'10px',sm:'14px',lg:'18px'}}}>
           {props.description}
         </Typography>
       </CardContent>
