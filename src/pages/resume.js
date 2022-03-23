@@ -26,7 +26,7 @@ export default function Resume() {
         padding: "1rem",
         borderRadius: "20px",
         marginTop: 4,
-        fontFamily: "poppins",
+        // fontFamily: "poppins",
       }}
       elevation={9}
     >
@@ -47,7 +47,7 @@ export default function Resume() {
 
       <Grid container xs={12} md={12} l={6}>
         <Stack
-           marginLeft={{ xs: "0", md: "2" }}
+          marginLeft={{ xs: "0", md: "2" }}
           direction={{ xs: "column", md: "row" }}
           spacing={6}
         >
@@ -71,7 +71,7 @@ export default function Resume() {
                       color: "black",
                       fontSize: "2rem",
                       fontWeight: "bold",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                     }}
                   >
                     Education
@@ -98,7 +98,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           G7 Expert Certificate{" "}
@@ -107,7 +107,7 @@ export default function Resume() {
                             style={{
                               color: "black",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Idealliance, USA
@@ -152,7 +152,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           Lean Six Sigma Black Belt{" "}
@@ -161,7 +161,7 @@ export default function Resume() {
                             style={{
                               color: "black",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Neville-Clarke, Singapore
@@ -206,7 +206,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           MBA{" "}
@@ -215,7 +215,7 @@ export default function Resume() {
                             style={{
                               color: "black",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Anamalai University, India
@@ -260,7 +260,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           Bachelor of Chemistry{" "}
@@ -269,7 +269,7 @@ export default function Resume() {
                             style={{
                               color: "black",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Manonmaniam Sundaranar University, India
@@ -301,7 +301,7 @@ export default function Resume() {
           <Grid
             item
             sx={{
-               mL: "3",
+              mL: "3",
               // width: "30vw",
               height: { xs: "auto", md: "auto" },
             }}
@@ -319,7 +319,7 @@ export default function Resume() {
                       color: "black",
                       fontSize: "2rem",
                       fontWeight: "bold",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                     }}
                   >
                     Personal Skills{" "}
@@ -332,7 +332,7 @@ export default function Resume() {
                 <Typography
                   sx={{
                     fontWeight: "bolder",
-                    fontFamily: "poppins",
+                    // fontFamily: "poppins",
                     fontSize: "1.1rem",
                   }}
                 >
@@ -344,7 +344,7 @@ export default function Resume() {
                 <Typography
                   sx={{
                     fontWeight: "bolder",
-                    fontFamily: "poppins",
+                    // fontFamily: "poppins",
                     fontSize: "1.1rem",
                   }}
                 >
@@ -356,7 +356,7 @@ export default function Resume() {
                 <Typography
                   sx={{
                     fontWeight: "bolder",
-                    fontFamily: "poppins",
+                    // fontFamily: "poppins",
                     fontSize: "1.1rem",
                   }}
                 >
@@ -369,7 +369,7 @@ export default function Resume() {
         </Stack>
       </Grid>
 
-      <Grid container xs={12} md={12} marginLeft={{xs:0,md:1}}>
+      <Grid container xs={12} md={12} marginLeft={{ xs: 0, md: 1 }}>
         {/* <Stack
           marginLeft={2}
           direction={{ xs: "column", md: "row" }}
@@ -395,7 +395,7 @@ export default function Resume() {
                     color: "black",
                     fontSize: "2rem",
                     fontWeight: "bold",
-                    fontFamily: "poppins",
+                    // fontFamily: "poppins",
                   }}
                 >
                   Experience{" "}
@@ -405,7 +405,7 @@ export default function Resume() {
           </ListItem>
 
           <Stack
-            marginLeft={{xs:0,md:1}}
+            marginLeft={{ xs: 0, md: 1 }}
             direction={{ xs: "column", md: "row", l: "row" }}
             spacing={1}
           >
@@ -425,7 +425,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           Head of Process Management & Consulting Services, SEA
@@ -435,7 +435,7 @@ export default function Resume() {
                               color: "grey",
                               fontWeight: "bold",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Siegwerk Singapore Pte Ltd
@@ -452,7 +452,7 @@ export default function Resume() {
                             width: { xs: "50vw", md: "20vw" },
                             border: "solid lightgrey 0.5px",
                             paddingTop: "0.5vh",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           2006- present
@@ -461,7 +461,7 @@ export default function Resume() {
                       <Typography
                         sx={{
                           marginTop: "2vh",
-                          fontFamily: "poppins",
+                          // fontFamily: "poppins",
                           textAlign: "justify",
                         }}
                       >
@@ -493,7 +493,7 @@ export default function Resume() {
                             color: "black",
                             fontWeight: "bolder",
                             fontSize: "1.1rem",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           Technical Supervisor
@@ -503,7 +503,7 @@ export default function Resume() {
                               color: "grey",
                               fontWeight: "bold",
                               fontSize: "1rem",
-                              fontFamily: "poppins",
+                              // fontFamily: "poppins",
                             }}
                           >
                             Sicpa India Pte Ltd
@@ -519,7 +519,7 @@ export default function Resume() {
                             width: { xs: "50vw", md: "10vw" },
                             border: "solid lightgrey 0.5px",
                             paddingTop: "0.5vh",
-                            fontFamily: "poppins",
+                            // fontFamily: "poppins",
                           }}
                         >
                           2002- 2005
@@ -528,7 +528,7 @@ export default function Resume() {
                       <Typography
                         sx={{
                           marginTop: "2vh",
-                          fontFamily: "poppins",
+                          // fontFamily: "poppins",
                           textAlign: "justify",
                         }}
                       >
@@ -566,7 +566,7 @@ export default function Resume() {
                     color: "black",
                     fontSize: "2rem",
                     fontWeight: "bold",
-                    fontFamily: "poppins",
+                    // fontFamily: "poppins",
                   }}
                 >
                   Software Skills
@@ -574,14 +574,14 @@ export default function Resume() {
               }
             />
           </ListItem>
-          <Grid item marginLeft={{xs:0,md:1}} marginTop={1}>
+          <Grid item marginLeft={{ xs: 0, md: 1 }} marginTop={1}>
             <Stack
               direction="row"
               spacing={0}
               sx={{ padding: "10px 10px 0 30px" }}
             >
               <Grid item xs={6} md={6} xl={6} sx={{ mr: 1 }}>
-                <Box marginLeft={{xs:0,md:1}} sx={{ textAlign: "left" }}>
+                <Box marginLeft={{ xs: 0, md: 1 }} sx={{ textAlign: "left" }}>
                   <CircularProgressWithLabel value={85} />
                   <Typography
                     sx={{
@@ -590,7 +590,7 @@ export default function Resume() {
                       color: "black",
                       fontSize: "1.1rem",
                       textAlign: "left",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                       marginTop: "2vh",
                     }}
                   >
@@ -599,7 +599,7 @@ export default function Resume() {
                 </Box>
               </Grid>
               <Grid item xs={6} md={6} xl={6} sx={{ width: "50%", mr: 1 }}>
-                <Box marginLeft={{xs:0,md:1}}>
+                <Box marginLeft={{ xs: 0, md: 1 }}>
                   <CircularProgressWithLabel value={75} />
                   <Typography
                     sx={{
@@ -607,17 +607,17 @@ export default function Resume() {
                       fontWeight: "bolder",
                       color: "black",
                       fontSize: "1.1rem",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                       marginTop: "2vh",
                     }}
                   >
                     Salesforce
                   </Typography>
-                </Box >
+                </Box>
               </Grid>
             </Stack>
           </Grid>
-          <Grid item marginLeft={{xs:0,md:1}} marginTop={4}>
+          <Grid item marginLeft={{ xs: 0, md: 1 }} marginTop={4}>
             <Stack
               direction="row"
               spacing={3}
@@ -625,7 +625,7 @@ export default function Resume() {
             >
               <Grid item xs={6} md={6} xl={6} sx={{ width: "50%", mr: 1 }}>
                 {/* <Typography>MS Office</Typography> */}
-                <Box marginLeft={{xs:0,md:1}} sx={{ textAlign: "left" }}>
+                <Box marginLeft={{ xs: 0, md: 1 }} sx={{ textAlign: "left" }}>
                   <CircularProgressWithLabel1 textAlign="center" value={70} />
                   <Typography
                     sx={{
@@ -634,7 +634,7 @@ export default function Resume() {
                       color: "black",
                       fontSize: "1.1rem",
                       textAlign: "left",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                       marginTop: "2vh",
                       marginLeft: { xs: "-4vw", md: "-1vw" },
                     }}
@@ -644,7 +644,7 @@ export default function Resume() {
                 </Box>
               </Grid>
               <Grid item xs={6} md={6} xl={6} sx={{ width: "50%", mr: 1 }}>
-                <Box marginLeft={{xs:0,md:1}}>
+                <Box marginLeft={{ xs: 0, md: 1 }}>
                   <CircularProgressWithLabel1 value={80} />
                   <Typography
                     sx={{
@@ -652,7 +652,7 @@ export default function Resume() {
                       fontWeight: "bolder",
                       color: "black",
                       fontSize: "1.1rem",
-                      fontFamily: "poppins",
+                      // fontFamily: "poppins",
                       marginTop: "2vh",
                       whiteSpace: "nowrap",
                       // marginLeft: { xs: "-vw" }

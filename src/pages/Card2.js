@@ -14,7 +14,7 @@ import {
   DialogTitle,
   DialogActions,
   DialogContent
-} from "@material-ui/core";
+} from "@mui/material";
 
 export default function MediaCard1() {
   const [open, setOpen] = React.useState(false);
@@ -28,7 +28,7 @@ export default function MediaCard1() {
   };
 
   return (
-    <Card sx={{ maxWidth: 180,borderRadius:"15px" }}>
+    <Card sx={{ maxWidth: 350,borderRadius:"15px",boxShadow:"0 0 6px orange" }}>
       <span>
         <CardMedia
           component="img"
@@ -70,10 +70,11 @@ export default function MediaCard1() {
           >
             Learn More
           </Button>
-          <Dialog open={open} onClose={handleToClose}>
+          <Dialog open={open} onClose={handleToClose} PaperProps={{ sx: {borderRadius:"15px",width:{xs:"90%",md:"auto"} } }}>
             <DialogTitle>{"Circular Economy "}</DialogTitle>
             <DialogContent>
-              <DialogContentText>
+              <DialogContentText 
+               color="text.primary">
                 <p>
                   Reduce means that the amount of resources, and in particular
                   finite resources, entering the cycle is being reduced by

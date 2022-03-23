@@ -7,19 +7,25 @@ import {
   Button,
   Typography
 } from "@mui/material";
-
+ import { makeStyles } from "@mui/styles";
 import {
   Dialog,
   DialogContentText,
   DialogTitle,
   DialogActions,
   DialogContent
-} from "@material-ui/core";
+} from "@mui/material";
 import "../styles.css";
+ 
 
+// const useStyles=makeStyles({
+//   dialog:{borderRadius:"15px"}
+// })
 
 export default function MediaCard() {
   const [open, setOpen] = React.useState(false);
+  
+  
 
   const handleClickToOpen = () => {
     setOpen(true);
@@ -30,7 +36,7 @@ export default function MediaCard() {
   };
 
   return (
-    <Card sx={{ maxWidth:180,borderRadius:"15px" }}>
+    <Card sx={{ maxWidth:350,borderRadius:"15px",boxShadow:"0 0 6px orange" }}>
       <span>
         <CardMedia
           component="img"
@@ -72,7 +78,8 @@ export default function MediaCard() {
           >
             Learn More
           </Button>
-          <Dialog className="dialog"open={open} onClose={handleToClose} >
+          <Dialog  open={open} onClose={handleToClose} PaperProps={{ sx: {borderRadius:"15px",width:{xs:"90%",md:"auto"} } }}
+ >
             <DialogTitle>{"Digital transformation"}</DialogTitle>
             <DialogContent >
               <DialogContentText 

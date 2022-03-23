@@ -12,7 +12,7 @@ export default function App() {
         padding: "1rem",
         borderRadius: "20px",
         // height: "68vh",
-        marginTop: 4
+        marginTop: 4,
       }}
       elevation={9}
     >
@@ -22,7 +22,7 @@ export default function App() {
           color: "rgb(255, 69, 27)",
           fontFamily: "sans-serif",
           fontWeight: "bold",
-          margin: "25px 20px 0px 30px"
+          margin: "25px 20px 0px 30px",
         }}
       >
         Portfolio
@@ -32,17 +32,17 @@ export default function App() {
         sx={{
           fontFamily: "sans-serif",
           fontWeight: "bold",
-          margin: "0 0px 10px 30px"
+          margin: "0 0px 10px 30px",
         }}
       >
-        My works that i did for clients
+        My works that I did for clients
       </Typography>
       <Grid
         container
         direction="row"
         // alignItems="center"
-        columnGap={5}
-        rowGap={5}
+        columnGap={7}
+        rowGap={3}
         mt={1}
       >
         <Grid
@@ -52,18 +52,24 @@ export default function App() {
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             justifyContent: "center",
-             alignItems: { xs: "center",md:"flex-start" },
-            gap: "1rem"
+            // alignItems: { xs: "center", md: "flex-start" },
+            gap: "1rem",
           }}
         >
           <MediaCard />
           <MediaCard1 />
-          {/* </Grid>
+        </Grid>
         <Grid
           item
           xs={12}
-          sx={{ display: "flex", justifyContent: "center", gap: "3rem" }}
-        > */}
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            justifyContent: "center",
+            //  alignItems: { xs: "center",md:"flex-start" },
+            gap: "1rem"
+          }}
+        >
           <MediaCard2 />
           <MediaCard3 />
         </Grid>

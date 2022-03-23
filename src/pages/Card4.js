@@ -14,7 +14,7 @@ import {
   DialogTitle,
   DialogActions,
   DialogContent
-} from "@material-ui/core";
+} from "@mui/material";
 
 export default function MediaCard3() {
   const [open, setOpen] = React.useState(false);
@@ -28,7 +28,7 @@ export default function MediaCard3() {
   };
 
   return (
-   <Card sx={{ maxWidth: 150, height: { lg: "57vh" },borderRadius:"15px" }}>
+   <Card sx={{ maxWidth: 350, height: { lg: "50vh" },borderRadius:"15px",boxShadow:"0 0 6px orange" }}>
       <span>
         <CardMedia
           component="img"
@@ -68,10 +68,11 @@ export default function MediaCard3() {
           >
             Learn More
           </Button>
-          <Dialog open={open} onClose={handleToClose}>
+          <Dialog open={open} onClose={handleToClose} PaperProps={{ sx: {borderRadius:"15px",width:{xs:"90%",md:"auto"} } }}>
             <DialogTitle>{"Training"}</DialogTitle>
             <DialogContent>
-              <DialogContentText>
+              <DialogContentText 
+               color="text.primary">
                 <p>- Technical support </p>
                 <p>- Partial technical advice </p>
                 <p>- Printing press performance validation</p>
