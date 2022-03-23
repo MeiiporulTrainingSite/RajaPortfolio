@@ -1,4 +1,5 @@
 import * as React from "react";
+import Training from '../images/Training.jpg'
 import {
   Card,
   CardActions,
@@ -28,12 +29,12 @@ export default function MediaCard2() {
   };
 
   return (
-    <Card sx={{ maxWidth: 350,borderRadius:"15px",boxShadow:"0 0 6px orange" }}>
+    <Card sx={{ maxWidth: 350,borderRadius:"15px" }}>
       <span>
         <CardMedia
           component="img"
           height="100"
-          image="https://www.trainingzone.co.uk/sites/default/files/styles/inline_banner/public/skynesher_1.jpg?itok=ketYILQv"
+          image={Training}
           alt=" Training  "
         />
         <CardContent>

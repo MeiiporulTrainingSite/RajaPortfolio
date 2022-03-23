@@ -50,7 +50,7 @@ export default function App() {
           xs={12}
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", md: "row" },
+            flexDirection: { xs: "column", sm: "row" },
             justifyContent: "center",
             // alignItems: { xs: "center", md: "flex-start" },
             gap: "1rem",
@@ -64,7 +64,7 @@ export default function App() {
           xs={12}
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", md: "row" },
+            flexDirection: { xs: "column", sm: "row" },
             justifyContent: "center",
             //  alignItems: { xs: "center",md:"flex-start" },
             gap: "1rem"

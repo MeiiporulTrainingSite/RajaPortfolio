@@ -24,7 +24,7 @@ import { MenuList, MenuItem } from "@mui/material";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { CardActions } from "@mui/material";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { makeStyles } from "@mui/styles";
 import "../styles.css";
@@ -155,7 +155,7 @@ export default function NavBar(props) {
         }}
       > */}
           <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-            <img src={logo} style={{ height: "60px", zIndex: 2,boxShadow:"0 0 10px #FEB224" }} alt="logo" />
+            <img className = 'image'src={logo} style={{ zIndex: 2 }} alt="logo" />
 
             <CardActions sx={{ display: { xs: "none", md: "flex" } }}>
               <a href="https://www.facebook.com" target="_blank" >
