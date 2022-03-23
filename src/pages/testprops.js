@@ -15,7 +15,7 @@ export default function Test(props) {
           md: "500px",
           lg: "530px",
           xl: "680px"
-        },
+       },
         margin: { xs: "0 0 0 20px" },borderRadius:"15px"
       }}
     >

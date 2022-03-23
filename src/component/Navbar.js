@@ -79,7 +79,7 @@ export default function NavBar(props) {
         />
       </Toolbar>
       <Divider />
-      <Box sx={{ marginTop: "59px" }}>
+      <Box sx={{ marginTop: "50px" }}>
         {menu.map((list, i) => (
           <Box key={i} className="link">
             <Link

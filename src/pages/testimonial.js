@@ -177,6 +177,7 @@ export default function Testimonial() {
             dot: classes.dot,
             dotActive: classes.dotActive
           }}
+       
           nextButton={
             <Button
               size="small"

@@ -23,13 +23,9 @@
   background-color: red !important;
 } 
 /* home */
-@media screen and (max-width:500px) {
-  .span {
-    display:none;
-  }
- .image{
-   height:85px
- }
+.image{
+  height:95px;
+  width:130px
 }
 @media screen and (max-width:850px) {
   
@@ -38,9 +34,14 @@
    width:180px
  }
 }
-.image{
-  height:95px;
-  width:130px
+
+@media screen and (max-width:500px) {
+  .span {
+    display:none;
+  }
+ .image{
+   height:85px
+ }
 }
 
 
