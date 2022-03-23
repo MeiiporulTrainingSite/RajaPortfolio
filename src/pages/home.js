@@ -42,9 +42,10 @@ export default function Home() {
           color: "#fff",
           fontSize: { xs: "38px", sm: "45px", lg: "70px" },
           marginBottom: { xs: "10px", sm: "13px", lg: "20px" }
+
         }}
       >
-        I'm Rajagurulingam
+        I'm Raja<span className="span">gurulingam</span>
       </Typography>
       <Typography
         paragraph

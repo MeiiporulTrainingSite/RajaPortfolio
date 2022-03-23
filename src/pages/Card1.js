@@ -15,6 +15,8 @@ import {
   DialogActions,
   DialogContent
 } from "@material-ui/core";
+import "../styles.css";
+
 
 export default function MediaCard() {
   const [open, setOpen] = React.useState(false);
@@ -70,10 +72,12 @@ export default function MediaCard() {
           >
             Learn More
           </Button>
-          <Dialog open={open} onClose={handleToClose}>
+          <Dialog className="dialog"open={open} onClose={handleToClose} >
             <DialogTitle>{"Digital transformation"}</DialogTitle>
-            <DialogContent>
-              <DialogContentText>
+            <DialogContent >
+              <DialogContentText 
+                color="text.primary"
+                >
                 The drive for great efficiency and effectiveness has
                 organisation transforming through the smart use of technology to
                 better manage what they do and how they do it. I support see

@@ -4,20 +4,8 @@
 .paper {
   background: linear-gradient(rgba(26, 48, 86, 0.82), rgba(26, 48, 86, 0.82)),
     url("https://th.bing.com/th/id/OIP._5ARCUWBhJLF1kUg2zvebAHaDe?pid=ImgDet&rs=1");
-  background-position: center;
+      background-position: center;
   background-size: cover;
-}
-.link .active {
-  background-color: red;
-}
-.textarea {
-  font-size: "0.5rem";
-  font-family: "poppins";
-  border: "1px solid gray";
-  outline: "none";
-}
-.active1 {
-  color: "red";
 }
 
 @media screen and (max-width: 1224px) {
@@ -26,12 +14,21 @@
     background: "red";
   }
 }
-
+/* resume */
 .css-1hxt08m-MuiLinearProgress-root {
   background-color: #cdafaf !important;
 }
+/* resume */
 .css-h8g9t7-MuiLinearProgress-bar1 {
   background-color: red !important;
 } 
-
+/* home */
+@media screen and (max-width:500px) {
+  .span {
+    display:none;
+  }
+  .MuiPaper-rounded{
+    border-radius:  15px;
+  }
+}
 
