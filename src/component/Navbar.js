@@ -155,18 +155,34 @@ export default function NavBar(props) {
         }}
       > */}
           <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-            <img src={logo} style={{ height: "50px", zIndex: 2 }} alt="logo" />
+            <img src={logo} style={{ height: "60px", zIndex: 2,boxShadow:"0 0 10px #FEB224" }} alt="logo" />
 
             <CardActions sx={{ display: { xs: "none", md: "flex" } }}>
-              <Avatar sx={{ bgcolor: "#3B5998", width: 50, height: 50 }}>
+              <a href="https://www.facebook.com" target="_blank" >
+              <Avatar  sx={{ bgcolor: "#3B5998", width: 50, height: 50,":hover": {
+                      backgroundColor: "orange",
+                      color: "white",
+                    }, }}>
                 <FacebookIcon sx={{ width: 10, height: 10 }} />
               </Avatar>
-              <Avatar sx={{ bgcolor: "#007AB9", width: 50, height: 50 }}>
+              </a>
+              <a href="https://www.linkedin.com/in/rajagurulingam-ramalingam-9756b6157/" target="_blank" >
+              <Avatar sx={{ bgcolor: "#007AB9", width: 50, height: 50 ,":hover": {
+                      backgroundColor: "orange",
+                      color: "white",
+                    },}}>
+              
                 <LinkedInIcon sx={{ width: 10, height: 10 }} />
               </Avatar>
-              <Avatar sx={{ bgcolor: "#26A6D1", width: 50, height: 50 }}>
+              </a>
+              <a href="https://www.twitter.com" target="_blank" >
+              <Avatar sx={{ bgcolor: "#26A6D1", width: 50, height: 50,":hover": {
+                      backgroundColor: "orange",
+                      color: "white",
+                    }, }}>
                 <TwitterIcon sx={{ width: 10, height: 10 }} />
               </Avatar>
+              </a>
             </CardActions>
             <Grid
               container
