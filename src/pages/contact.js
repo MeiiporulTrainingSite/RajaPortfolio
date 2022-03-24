@@ -9,7 +9,7 @@ export default function Contact(props) {
         padding: { xs: "1rem", md: "3rem 3.5rem 3.5rem 3.5rem" },
         borderRadius: "20px",
         marginTop: 5,
-        marginBottom: 4
+        marginBottom: 4,
       }}
       elevation={9}
     >
@@ -19,7 +19,7 @@ export default function Contact(props) {
           color: "rgb(255, 69, 27)",
           fontFamily: "sans-serif",
           fontWeight: "bold",
-          margin: "25px 20px 5px 0"
+          margin: "25px 20px 5px 0",
         }}
       >
         Contact Me
@@ -29,7 +29,7 @@ export default function Contact(props) {
         sx={{
           fontFamily: "sans-serif",
           marginBottom: "1.5rem",
-          fontWeight: "bold"
+          fontWeight: "bold",
         }}
       >
         Get Ahold Of Me
