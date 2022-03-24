@@ -1,9 +1,5 @@
 import {
-  Box,
-  Toolbar,
-  IconButton,
-  CardActions,
-  Typography
+  Box,Typography
 } from "@mui/material";
 
 export default function Footer() {
@@ -21,7 +17,7 @@ export default function Footer() {
         background: "rgb(255, 246, 241)"
       }}
     >
-      <Typography>@copyright</Typography>
+      <Typography>© 2022 NRR | Meiiporul</Typography>
     </Box>
   );
 }

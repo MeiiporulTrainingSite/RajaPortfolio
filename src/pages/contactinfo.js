@@ -12,7 +12,7 @@ export default function Contactinfo() {
       xs={12}
       md={12}
       xl={6}
-      // sx={{marginLeft:"7rem"}}
+   
       gap={{ xs: 3 }}
     >
       <Grid container spacing={{xs:3,md:1,sm:-30,lg:6}}>
@@ -23,7 +23,7 @@ export default function Contactinfo() {
         </Grid>
         <Grid item md={6} xs={6}>
           <Typography
-            // component="h4"
+         
             variant="h6"
             sx={{ fontFamily: "sans-serif", fontWeight: "bold" }}
           >

@@ -1,6 +1,6 @@
 
 import Box from "@mui/material/Box";
-// import CV from "../../public/CV.pdf";
+
 import {
   Paper,
   Grid,
@@ -120,7 +120,7 @@ export default function About() {
                   incorporating technological advancements in day to day
                   processes.
                 </Typography>
-                {/* <a href={CV} download="test file"> */}
+                <a href="https://drive.google.com/uc?export=download&id=1HsqxNd9l91QEPFq2fO1y-9GKi2_UfByJ" download="test file">
                 <Button
                   variant="contained"
                   sx={{
@@ -142,7 +142,7 @@ export default function About() {
                 >
                   Download CV
                 </Button>
-                {/* </a> */}
+                </a>
               </Grid>
             </Grid>
           </Stack>

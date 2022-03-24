@@ -61,7 +61,7 @@ export default function Home() {
         and organizational management in upcoming industry.
         
       </Typography>
-      <a href="https://drive.google.com/uc?export=download&id=1hcqpa81FC0V7sp8mIjXy1EgoZYCF-gnq" download="myfile" target="blank">
+      <a href="https://drive.google.com/uc?export=download&id=1HsqxNd9l91QEPFq2fO1y-9GKi2_UfByJ" download="myfile" target="blank">
         <Button
           variant="contained"
           sx={{
